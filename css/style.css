@@ -1,0 +1,109 @@
+*{margin: 0px}
+header{}
+img{max-width: 100%}
+body{font-family: 'Open Sans', sans-serif;}
+.announcment-bar{
+    background-color: #ea7600;
+}
+.announcment-bar p {
+    text-align: center;
+    font-size: 30px;
+    padding: 4px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.announcment-bar p a {
+    text-decoration: none;
+    background-color: white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 13px;
+    color: green;
+    letter-spacing: 0px;
+    margin-bottom: 3px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    background: #f4fafc;
+    box-sizing: border-box;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo img {
+    max-width: 100%;
+}
+nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 12px;
+    color: #e17100;
+    display: inline-block;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+    }
+
+nav ul li a:hover{  background-color: #ea7600; color:white; }
+.product-section{background-color: #bcdfeb29;}
+.product-box{
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 20px 2px #0c0c0c47;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    }
+.product-box >img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+.btn{background-color: #ea7600;color: white;font-size: 20px;border: 0;
+    padding: 10px 40px;margin-top: 15px;text-transform: uppercase;
+    letter-spacing: 1px;width: 100%;font-weight: 600;border-radius: 5px;}
+.btn img {max-width: 21px;}
+.product-box h2{
+    font-size: 30px;
+    font-weight: 800;
+    color: #ea7600;
+    display: flex;
+    align-items: center;
+}
+.product-box h2 s{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.product-box h1{
+    color: #ea7600;
+    font-size: 25px;
+}
+.product-box p {
+    color: #3a3a3a;
+    line-height: 1.5;
+    margin: 10px 0px;
+}
+.product-box:hover{  box-shadow: 0 0 0px 0px #0c0c0c47;}
+.collum{flex-basis: 25%;box-sizing: border-box;padding: 5px;}
